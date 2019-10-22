@@ -124,7 +124,7 @@ class AirlySensor(Entity):
     @property
     def name(self):
         """Return the name."""
-        return "{0}".format(self._name)
+        return "{0} {1}".format("Airly", self._name)
 
     @property
     def state(self):
